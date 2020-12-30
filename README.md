@@ -46,24 +46,24 @@ export default {
 
 ## IMAGES
 ### Home Page
-![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/1.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app_images/1.PNG)
 ### Application Page
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/2.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app_images/2.PNG)
 ### Create Board Component
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/3.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app_images/3.PNG)
 ### Board Page
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/4.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/4.PNG)
 ### Card Info Component
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/5.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/5.PNG)
 ### Menu Component
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/6.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/6.PNG)
 ### You Can Change Your Board's Background
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/7.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/7.PNG)
 ### Mobile Application Page
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/8.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/8.PNG)
 ### Mobile Board Page
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/9.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/9.PNG)
 ### Mobile Board Menu Component
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/10.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/10.PNG)
 ### You Can Drag&Drop Event With Lists and Cards 
-![Screenshot](https://github.com/basturkerhan//makeplan-app-frontend/blob/main/app-images/11.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/11.PNG)

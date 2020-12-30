@@ -1,0 +1,39 @@
+.userPhoto, .profilePhoto {
+    display: inline-flex;
+    border-radius: 100%;
+    color: #000;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.profilePhoto{
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: #eaeaea;
+}
+.userPhoto{
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+    background-color: #dadada;
+}
+
+.user-btn {
+    border-radius: 50%;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    outline: none;
+    background-color: transparent;
+}
+.user-btn {
+    padding: 5px;
+}
+.card-footer .user-btn {
+    padding: 0px 3px 0px 0px;
+}

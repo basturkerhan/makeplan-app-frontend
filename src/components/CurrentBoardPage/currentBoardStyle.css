@@ -1,0 +1,286 @@
+/*GENERAL*/
+.all-screen, .card-info .card-img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.background-image-card img, .members-item .add-follower, .card-info .exit-button, .action-button, .menu-right .menu-item, .secondary-header .board-name {
+  cursor: pointer;
+}
+
+.board-rightmenu, .board-rightmenu button, .menu-right .menu-item, .card-info-area .card-info, .card-info .card-img, .card-img .change-img, .activities-list .card, .list-item-card, .background-image-card {
+  border-radius: 0;
+}
+
+.board-area .board, .card-info-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+::-webkit-scrollbar-track, .menu-right .menu-item {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+::-webkit-scrollbar-thumb, .menu-right .menu-item:hover {
+  background-color: rgba(255, 255, 255, .25);
+}
+
+.all-screen, .bottom-menu, .board-area, .secondary-header .board-name, .list-header:first-child {
+  flex-grow: 1;
+}
+
+.activities-list, .members-list, .followers-item {
+  list-style: none;
+}
+
+.board-area, .all-screen {
+  order: 0;
+}
+
+.bottom-menu, .list-header, .followers-item, .members-item {
+  display: flex;
+  position: relative;
+}
+
+.members-item, .followers-item, .background-image-card {
+  margin-bottom: .5rem;
+}
+
+.board-rightmenu h4, .current-board-menu h1 {
+  text-align: center;
+}
+
+.board-rightmenu button, .menu-right .menu-item, .card-info-area .card-info, .card-img .change-img, .activities-list .card, .card-footer {
+  border: none;
+}
+
+.all-page, .board-area .board {
+  display: flex;
+  flex-direction: row;
+}
+
+.all-screen, .board-rightmenu {
+  height: 100vh;
+  display: flex;
+}
+
+.board-rightmenu button, .secondary-header .board-name:hover {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.current-board-menu h1, .card-info .exit-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-info-body h2, .current-board-menu h2, .card-info-body .card-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.board-rightmenu, .card-footer {
+  background-color: #fff;
+}
+
+/*-----------------------------------------------------------------------*/
+.all-screen {
+  flex-direction: column;
+}
+
+/*BOARD MENU*/
+.board-rightmenu {
+  padding: 8px;
+  border-left: 1px solid rgba(0,0,0,.3);
+  z-index: 10;
+  order: 1;
+  width: 300px;
+  overflow-y: auto;
+}
+
+.board-rightmenu h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+/*BOARD AREA*/
+.board-area .board {
+  align-items: flex-start;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-grow: 1;
+}
+
+/*SECONDARY HEADER*/
+.secondary-header {
+  display: flex;
+  margin: 4px;
+  background-color: transparent;
+  color: white;
+  max-height: 15vh;
+
+}
+.secondary-header .board-name {
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.menu-right {
+  display: flex;
+  flex-shrink: 0;
+}
+.menu-right .menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  padding: 8px;
+  color: white;
+}
+
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+  height: 1rem;
+}
+
+/*ACTION BUTTON*/
+.action-button {
+  padding: 8px 8px 0;
+  min-width: 272px;
+}
+
+/*CARD INFO*/
+.card-info-area {
+  background-color: rgba(0,0,0,.6);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-info-area .card-info {
+  width: 400px;
+  min-width: 50%;
+  height: 90vh;
+  min-height: 400px;
+  background-color: #f3f3f3;
+  position: relative;
+}
+
+.card-info .exit-button {
+  position: absolute;
+  right: 10px;
+  color: #eaeaea;
+  top: 5px;
+}
+
+.card-img .change-img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px; 
+}
+
+/*ACTIVITIES*/
+.activities-list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.activities-list .card {
+  font-size: .9rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+  background-color: rgb(235, 236, 240);
+}
+
+/*CARD*/
+.list-item-card {
+  margin-bottom: 8px;
+}
+.list-item-card .card-body {
+  position: relative;
+}
+.list-item-card .card-img-top {
+  height: 6rem;
+  object-fit: cover;
+}
+
+.card-footer {
+  padding: 0px 8px 4px;
+  display: flex;
+  overflow: hidden;
+}
+
+/*BOARD MEMBERS*/
+.followers-item {
+  align-items: baseline;
+}
+.members-item {
+  align-items: baseline;
+  border-bottom: 0.1px solid #95a5a6;
+}
+.members-item .add-follower {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+/*CHANGE BACKGROUND*/
+.background-image-card img {
+  height: 100px;
+  object-fit: cover;
+}
+
+/*-------------------------------------RESPONSIVE------------------------------------------*/
+@media (min-width: 576px) {
+  .card-info-area .card-info {
+    width: 550px;
+  }
+}
+@media (min-width: 768px) {
+  .card-info-area .card-info {
+    width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .card-info-area .card-info {
+    width: 850px;
+  }
+}
+
+/*--------------------------------------------------------*/
+
+.card-area {
+  order: 0;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.card-container {
+  background-color: #ebecf0;
+  width: 300px;
+  min-width: 300px;
+  padding: 8px;
+  margin-right: 8px;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.unfollow-board button {
+  background-color: red;
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+}

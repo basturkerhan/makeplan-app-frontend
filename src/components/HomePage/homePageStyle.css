@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+/*HOMEPAGE HEADER*/
+.header{
+    background-color: #e55039;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(255,255,255,.2);
+}
+.header .title, .app-header .title{
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+
+/*AUTH-SECTION*/
+.auth-section{
+    background-color: #e55039;
+    padding: 7rem 0 5rem;
+}
+.auth-section-info {
+    color: #fff;
+}
+.authFooterMsg {
+    cursor: pointer;
+}
+
+/*INFO-SECTION*/
+.info-section{
+    background-color: #fff;
+    padding: 5rem 0;
+}
+
+/*FOOTER SECTION*/
+.homepage-footer-section {
+    background-image: url("https://i.hizliresim.com/IfupUT.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.homepage-footer-section .text-area {
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    background-color: rgba(255,255,255,.5);
+}
+.homepage-footer-section h3 {
+    color: #e55039;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-align: center;
+}
+.homepage-footer-section .btn {
+    background-color: #e55039;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5;
+}

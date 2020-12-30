@@ -1,0 +1,11 @@
+.app-loading {
+    background-color: red;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.app-loading img {
+    width: 8rem;
+    height: auto;
+}

@@ -1,0 +1,41 @@
+.list-text-area, .board-text-area, .card-text-area, .card-text-area-header {
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.list-text-area {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.card-text-area {
+    margin-bottom: 0.5rem;
+}
+.card-text-area-header {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.board-text-area {
+    color: white;
+    letter-spacing: 0.5;
+    font-size: 1.2rem;
+}
+.active-text-area {
+    background-color: #fff !important;
+    color: #333;
+}
+
+.delete-item-button, .delete-member-button {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #95a5a6;
+    cursor: pointer;
+}
+.delete-item-button::after, .delete-member-button::after {
+    content: "\2716";
+}

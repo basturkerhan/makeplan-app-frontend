@@ -64,6 +64,6 @@ export default {
 ### Mobile Board Page
 ![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app_images/9.PNG)
 ### Mobile Board Menu Component
-![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/10.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app_images/10.PNG)
 ### You Can Drag&Drop Event With Lists and Cards 
-![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app-images/11.PNG)
+![Screenshot](https://github.com/basturkerhan/makeplan-app-frontend/blob/main/app_images/11.PNG)

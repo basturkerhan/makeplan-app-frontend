@@ -2,7 +2,7 @@
 <br>
 There are different sites and applications for the project management of the teams. I used one of these while I was in a project. Then, when I started working with MERN technologies, the idea of ​​making such an application came to my mind. I also used the Redux and Context structure Also I used the flex structure, which is one of my favorite features of CSS.
 
-**In this repo, you see the frontend of the application.
+In this repo, you see the frontend of the application.
 <br>
 **Demo: https://make-plan-frontend.vercel.app/**
 <br>
